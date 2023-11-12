@@ -6,6 +6,8 @@ import { Router, RouterModule } from '@angular/router';
   selector: 'app-qrcodescanner',
   templateUrl: './qrcodescanner.component.html'
 })
-export class QRCodeScannerComponent {
-  
+export class QRCodeScannerComponent
+{
+
+
 }
