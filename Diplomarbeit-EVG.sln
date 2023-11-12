@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplomarbeit-EVG", "Diplomarbeit-EVG\Diplomarbeit-EVG.csproj", "{3C9FDCB9-7E6D-4A90-8D35-A7909B8C46DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C9FDCB9-7E6D-4A90-8D35-A7909B8C46DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9FDCB9-7E6D-4A90-8D35-A7909B8C46DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9FDCB9-7E6D-4A90-8D35-A7909B8C46DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9FDCB9-7E6D-4A90-8D35-A7909B8C46DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2BD6B2B-0A96-4A9C-9130-C4E7E2855BBD}
+	EndGlobalSection
+EndGlobal
