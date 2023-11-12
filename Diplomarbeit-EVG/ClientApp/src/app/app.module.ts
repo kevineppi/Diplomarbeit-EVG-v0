@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -12,6 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { DsgvoComponent } from './dsgvo/dsgvo.component';
 import { RoomIdManualComponent } from './roomidmanual/roomidmanual.component';
 import { QRCodeScannerComponent } from './qrcodescanner/qrcodescanner.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { QRCodeScannerComponent } from './qrcodescanner/qrcodescanner.component'
     DsgvoComponent,
     RoomIdManualComponent,
     NavMenuComponent,
-    QRCodeScannerComponent
+    QRCodeScannerComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -35,7 +37,8 @@ import { QRCodeScannerComponent } from './qrcodescanner/qrcodescanner.component'
       { path: 'home', component: HomeComponent },
       { path: 'roomidmanual', component: RoomIdManualComponent },
       { path: 'qrcodescanner', component: QRCodeScannerComponent },
-      { path: 'nav', component: NavMenuComponent }
+      { path: 'nav', component: NavMenuComponent },
+      { path: 'navigation', component: NavigationComponent }
 
     ])
   ],

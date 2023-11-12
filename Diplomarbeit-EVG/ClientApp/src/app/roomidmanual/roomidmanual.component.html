@@ -1,4 +1,16 @@
 <app-nav-menu></app-nav-menu>
-<h1>
-  manual
-</h1>
+
+<form (submit)="handleFormSubmit()">
+  <label> Bitte den gewünschten Zielraum eingeben!</label>
+  <br />
+  <input type="text" />
+  <br />
+  <button type="submit">Submit</button>
+
+</form>
+<style>
+  form{
+    align-content:center;
+    align-items:center;
+  }
+</style>
