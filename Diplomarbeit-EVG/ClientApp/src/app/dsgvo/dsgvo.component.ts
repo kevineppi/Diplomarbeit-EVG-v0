@@ -20,7 +20,10 @@ export class DsgvoComponent implements OnInit {
 
 
   //}
-  ngOnInit() { }
+  ngOnInit()
+  {
+    
+  }
 
 
   sendData() {
@@ -41,5 +44,8 @@ export class DsgvoComponent implements OnInit {
     this.router.navigate(["home"]);
   }
 
+  
+
+  
   }
 
