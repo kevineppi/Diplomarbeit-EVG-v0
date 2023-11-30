@@ -22,7 +22,13 @@ export class DsgvoComponent implements OnInit {
   //}
   ngOnInit()
   {
-    
+    //Zeile um LocalStorage zurückzusetzen
+    //localStorage.setItem("checkboxValue", "false");
+
+    //Wenn true direkt zur Home Seite - sonst regulärer Start = DSGVO
+    if (localStorage.getItem('checkboxValue') === 'true') {
+      this.router.navigate(["home"]);
+    }
   }
 
 
@@ -44,6 +50,10 @@ export class DsgvoComponent implements OnInit {
     this.router.navigate(["home"]);
   }
 
+  saveCheckboxValue(event: EventTarget | null) {
+    const isChecked = (event as HTMLInputElement).checked;
+    localStorage.setItem('checkboxValue', String(isChecked));
+  }
   
 
   
