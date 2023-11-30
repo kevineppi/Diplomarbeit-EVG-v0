@@ -10,6 +10,7 @@ import { DsgvoComponent } from './dsgvo/dsgvo.component';
 import { RoomIdManualComponent } from './roomidmanual/roomidmanual.component';
 import { QRCodeScannerComponent } from './qrcodescanner/qrcodescanner.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { AdmincomponentComponent } from './admincomponent/admincomponent.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { NavigationComponent } from './navigation/navigation.component';
       { path: 'roomidmanual', component: RoomIdManualComponent },
       { path: 'qrcodescanner', component: QRCodeScannerComponent },
       { path: 'nav', component: NavMenuComponent },
-      { path: 'navigation', component: NavigationComponent }
+      { path: 'navigation', component: NavigationComponent },
+      { path: 'adminwindow', component: AdmincomponentComponent }
 
     ])
   ],
@@ -36,7 +38,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     RoomIdManualComponent,
     NavMenuComponent,
     QRCodeScannerComponent,
-    NavigationComponent
+    NavigationComponent,
+    AdmincomponentComponent
 
   ],
   providers: [],

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-import { Router, RouterModule } from '@angular/router';
 
 
 
@@ -10,5 +9,5 @@ import { Router, RouterModule } from '@angular/router';
 })
 export class QRCodeScannerComponent
 {
-
+ 
 }
