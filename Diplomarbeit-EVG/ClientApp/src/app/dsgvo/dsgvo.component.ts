@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { HomeComponent } from '../home/home.component';
+/*import { HomeComponent } from '../home/home.component';*/
 import { HttpClient } from '@angular/common/http';
 import { DataService } from '../data.service';
 
