@@ -24,7 +24,7 @@
             <a href="https://www.dsb.gv.at/recht-entscheidungen/gesetze-in-oesterreich.html"> Allgemeine Bestimmungen</a>
             <br />
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="privacyPolicyCheckbox">
+              <input class="form-check-input" type="checkbox" id="privacyPolicyCheckbox" (change)="saveCheckboxValue($event.target)">
               <label class="form-check-label">Ich stimme der Datenschutzerklärung zu</label>
 
             </div>
