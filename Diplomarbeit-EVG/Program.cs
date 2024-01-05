@@ -22,6 +22,18 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");
 
-app.MapFallbackToFile("index.html"); ;
+app.MapControllerRoute(
+    name: "Room-Id-Handler",
+    pattern: "{controller=StartPoint}/{action=EmpfangeZahl}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "admin",
+        pattern: "{controller=AdminController}/{action=GetByteFromPicture}/{id?}");
+    // Fügen Sie weitere Routen hinzu, falls erforderlich
+});
+
+app.MapFallbackToFile("index.html");
 
 app.Run();
