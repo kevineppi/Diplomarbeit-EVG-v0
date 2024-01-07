@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "Diplomarbeit_EVG"
+  "defaultProject": "Diplomarbeit_EVG",
+  "cli": {
+    "analytics": "6d5091cf-a8e3-431d-bfa8-3fc50c4f65f8"
+  }
 }
